@@ -1,0 +1,82 @@
+.wrapper-tours {
+    background-image: url(/img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+.tours {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -67%);
+    min-width: 1134px;
+}
+
+.tour-title::before {
+    content: '\276E';
+    display: inline-block;
+    background-color: rgba(85, 166, 142, 0.651);
+    width: 104px;
+    height: 104px;
+    text-align: center;
+    font-weight: 300;
+    margin-right: 83px;
+    
+}
+
+.tour-title::after {
+    content: '\276F';
+    display: inline-block;
+    background-color: rgba(85, 166, 142, 0.651);
+    width: 104px;
+    height: 104px;
+    font-weight: 300;
+    margin-left: 83px;
+}
+
+.tour-title {
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    text-align: center;
+    
+}
+
+.feauters-items {
+    float: left;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    
+    
+}
+
+.feauters-list {
+   margin-left: 187px;
+   
+}
+
+.feauters-links {
+    color: #ffffff;
+    
+    
+}
+
+.feauters-links::after {
+    content: '\002F';
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.feauters-links-3 {
+    color: #ffffff;
+}
+
+  
