@@ -16,14 +16,6 @@
     min-width: 1134px;
 }
 
-
-.tours:hover::before {
-    cursor: pointer;
-    background-color: rgb(85, 166, 142);
-    transition: 0.3s;
-}
-
-
 .tours::before {
     content: '\276E';
     display: inline-block;
@@ -41,7 +33,7 @@
     transform: translateY(-39%);
 }
 
-.tours:hover::after {
+.tours:hover::before {
     cursor: pointer;
     background-color: rgb(85, 166, 142);
     transition: 0.3s;
@@ -64,7 +56,11 @@
     transform: translateY(-39%);
 }
 
-
+.tours:hover::after {
+    cursor: pointer;
+    background-color: rgb(85, 166, 142);
+    transition: 0.3s;
+}
 
 .tour-title {
     font-size: 60px;
