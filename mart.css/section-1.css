@@ -6,6 +6,24 @@
     height: 600px;
     position: relative;
 }
+
+
+.tours {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -67%);
+    min-width: 1134px;
+}
+
+
+.tours:hover::before {
+    cursor: pointer;
+    background-color: rgb(85, 166, 142);
+    transition: 0.3s;
+}
+
+
 .tours::before {
     content: '\276E';
     display: inline-block;
@@ -21,6 +39,12 @@
     font-size: 50px;
     color: #ffffff;
     transform: translateY(-39%);
+}
+
+.tours:hover::after {
+    cursor: pointer;
+    background-color: rgb(85, 166, 142);
+    transition: 0.3s;
 }
 
 .tours::after {
@@ -40,24 +64,7 @@
     transform: translateY(-39%);
 }
 
-.tours {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -67%);
-    min-width: 1134px;
-}
 
-
-
-
-
-.tours:hover::before,
-.tours:hover::after {
-    cursor: pointer;
-    background-color: rgb(85, 166, 142);
-    transition: 0.3s;
-}
 
 .tour-title {
     font-size: 60px;
