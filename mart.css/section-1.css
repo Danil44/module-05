@@ -15,7 +15,7 @@
     min-width: 1134px;
 }
 
-.tour-title::before {
+.tours::before {
     content: '\276E';
     display: inline-block;
     background-color: rgba(85, 166, 142, 0.651);
@@ -23,18 +23,37 @@
     height: 104px;
     text-align: center;
     font-weight: 300;
-    margin-right: 83px;
-    
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    line-height: 104px;
+    font-size: 50px;
+    color: #ffffff;
+    transform: translateY(-39%);
 }
 
-.tour-title::after {
+.tours::after {
     content: '\276F';
     display: inline-block;
     background-color: rgba(85, 166, 142, 0.651);
     width: 104px;
     height: 104px;
+    text-align: center;
     font-weight: 300;
-    margin-left: 83px;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    line-height: 104px;
+    font-size: 50px;
+    color: #ffffff;
+    transform: translateY(-39%);
+}
+
+.tours:hover::before,
+.tours:hover::after {
+    cursor: pointer;
+    background-color: rgb(85, 166, 142);
+    transition: 0.3s;
 }
 
 .tour-title {
@@ -45,7 +64,6 @@
     text-transform: uppercase;
     margin-bottom: 21px;
     text-align: center;
-    
 }
 
 .feauters-items {
@@ -54,19 +72,14 @@
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    
-    
 }
 
 .feauters-list {
-   margin-left: 187px;
-   
+    margin-left: 187px;
 }
 
 .feauters-links {
     color: #ffffff;
-    
-    
 }
 
 .feauters-links::after {
@@ -78,5 +91,3 @@
 .feauters-links-3 {
     color: #ffffff;
 }
-
-  
