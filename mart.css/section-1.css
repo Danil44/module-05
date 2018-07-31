@@ -7,6 +7,7 @@
     position: relative;
 }
 
+
 .tours {
     position: absolute;
     top: 50%;
@@ -32,6 +33,12 @@
     transform: translateY(-39%);
 }
 
+.tours:hover::before {
+    cursor: pointer;
+    background-color: rgb(85, 166, 142);
+    transition: 0.3s;
+}
+
 .tours::after {
     content: '\276F';
     display: inline-block;
@@ -49,7 +56,6 @@
     transform: translateY(-39%);
 }
 
-.tours:hover::before,
 .tours:hover::after {
     cursor: pointer;
     background-color: rgb(85, 166, 142);
