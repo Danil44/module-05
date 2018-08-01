@@ -22,12 +22,11 @@ font-weight: 900;
 }
 
 .nav-list {
-    float: right;
-    vertical-align: top;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-item {
-    float: left;
     margin-right: 34px;
 }
 

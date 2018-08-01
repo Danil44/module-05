@@ -16,9 +16,7 @@
     min-width: 1134px;
 }
 
-.tours::before {
-    content: '\276E';
-    display: inline-block;
+.left_bracket {
     background-color: rgba(85, 166, 142, 0.651);
     width: 104px;
     height: 104px;
@@ -33,15 +31,13 @@
     transform: translateY(-39%);
 }
 
-.tours:hover::before {
+.left_bracket:hover {
     cursor: pointer;
     background-color: rgb(85, 166, 142);
     transition: 0.3s;
 }
 
-.tours::after {
-    content: '\276F';
-    display: inline-block;
+.right_bracket {
     background-color: rgba(85, 166, 142, 0.651);
     width: 104px;
     height: 104px;
@@ -56,7 +52,7 @@
     transform: translateY(-39%);
 }
 
-.tours:hover::after {
+.right_bracket:hover {
     cursor: pointer;
     background-color: rgb(85, 166, 142);
     transition: 0.3s;
