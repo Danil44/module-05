@@ -109,7 +109,7 @@
 .knob-item a:hover {
     cursor: pointer;
     background-color: #1abc9c;
-    border: #1abc9c;
+    border-color: #1abc9c;
     transition: 0.3s;
 }
 
